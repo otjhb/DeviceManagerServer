@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+coverage
+log
+
+*.rdb
+=======
+rholog-*
+sim-*
+bin/libs
+bin/RhoBundle
+bin/tmp
+bin/target
+bin/*.ap_
+*.o
+*.jar
+>>>>>>> 7935474910ba7d26f5acf2e220d7bc586f4c8cc8
