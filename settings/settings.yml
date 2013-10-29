@@ -1,0 +1,28 @@
+#Sources
+:sources:
+  Department:
+    :poll_interval: 300
+  DeviceBrand:
+    :poll_interval: 300
+  Device:
+    :poll_interval: 300
+  DeviceHistory:
+    :poll_interval: 300
+  DeviceUser:
+    :poll_interval: 300
+
+:development:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :push_server: http://appname:secret@localhost:8675/
+:test:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :push_server: http://appname:secret@localhost:8675/
+:production:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :push_server: http://appname:secret@localhost:8675/
